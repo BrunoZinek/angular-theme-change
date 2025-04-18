@@ -1,27 +1,48 @@
-# BaseTheme
+# 🌗 Angular Theme Change
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
+Este projeto demonstra como implementar a **troca de tema (claro/escuro)** em uma aplicação Angular de forma simples e eficiente. Ideal para aplicações que precisam oferecer uma melhor experiência visual para o usuário, respeitando preferências de acessibilidade e conforto visual.
 
-## Development server
+## 🎯 Objetivo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O objetivo deste projeto é **aprofundar o entendimento sobre o sistema de temas no Angular**, especialmente após as mudanças introduzidas com o **Angular Material 3**. A ideia foi explorar boas práticas na personalização e alternância de temas, utilizando recursos modernos da framework.
 
-## Code scaffolding
+## ✨ Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- 🌞 Alternância entre tema claro e escuro  
+- 🎨 Estilização baseada em variáveis CSS  
+- 💾 Persistência do tema com `localStorage`  
+- ⚙️ Arquitetura limpa e escalável  
 
-## Build
+## 🚀 Tecnologias
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular 19  
+- HTML5 + CSS3  
+- TypeScript  
 
-## Running unit tests
+## 🛠️ Como usar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone o repositório:  
+   git clone https://github.com/BrunoZinek/angular-theme-change.git  
+   cd angular-theme-change
 
-## Running end-to-end tests
+2. Instale as dependências:  
+   npm install
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Rode o projeto:  
+   ng serve
 
-## Further help
+4. Acesse no navegador:  
+   http://localhost:4200
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📌 Observações
+
+- O projeto usa variáveis CSS para temas, tornando a troca de estilos rápida e elegante.
+- Fácil de adaptar para múltiplos temas ou integração com preferências do sistema operacional.
+
+## 🤝 Contribuindo
+
+Sinta-se à vontade para abrir issues ou pull requests! Sugestões e melhorias são muito bem-vindas.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
